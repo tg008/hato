@@ -1,0 +1,31 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif ; text-align: center;
+}
+#h2,h3,h4{
+    font-size:20px; color: #04212f;
+}
+h1{
+    font-size:30px; color: #014f76; font-weight: 600;
+}
+/* 点滅 */
+.blinking{
+	-webkit-animation:blink 1.5s ease-in-out infinite alternate;
+    -moz-animation:blink 1.5s ease-in-out infinite alternate;
+    animation:blink 1.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+/*ここまで点滅*/
